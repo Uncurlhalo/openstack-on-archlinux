@@ -6,7 +6,7 @@ PACKAGES = \
   memcached \
   mysql-python \
   mysql \
-  python-memcached \
+  python2-memcached \
   python2-babel \
   python2-crypto \
   python2-dateutil \
