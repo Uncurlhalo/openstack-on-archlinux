@@ -10,7 +10,6 @@ license=('Apache')
 makedepends=()
 checkdepends=()
 depends=(
-  'python-memcached'
   'python2'
   'python2-babel'
   'python2-crypto'
@@ -20,6 +19,7 @@ depends=(
   'python2-greenlet'
   'python2-httplib2'
   'python2-lxml'
+  'python2-memcached'
   'python2-netifaces'
   'python2-nose'
   'python2-paramiko'
