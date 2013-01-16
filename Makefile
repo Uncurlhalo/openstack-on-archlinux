@@ -49,7 +49,8 @@ PACKAGES_AUR = \
   python2-routes \
   python2-suds \
   python2-webob \
-  rabbitmq
+  rabbitmq \
+  perl-config-general
 
 install: install-packages install-packages-aur
 
