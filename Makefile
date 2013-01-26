@@ -26,6 +26,7 @@ PACKAGES = \
   python2-tempita \
   python2-pyudev \
   python2-gflags \
+  python2-pyopenssl \
   qemu-kvm
 
 PACKAGES_AUR = \
