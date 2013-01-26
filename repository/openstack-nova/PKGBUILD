@@ -10,9 +10,9 @@ license=('Apache')
 depends=(
   'openstack-python-glanceclient'
   'openstack-python-quantumclient'
-  'python-anyjson'
-  'python-paste'
-  'python-paste-deploy'
+  'python2-anyjson'
+  'python2-paste'
+  'python2-paste-deploy'
   'python2'
   'python2-amqplib'
   'python2-babel'

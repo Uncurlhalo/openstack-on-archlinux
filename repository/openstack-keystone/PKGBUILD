@@ -9,8 +9,8 @@ url=("http://docs.openstack.org/developer/keystone/")
 license=('Apache')
 depends=(
   'python-pam'
-  'python-paste'
-  'python-paste-deploy'
+  'python2-paste'
+  'python2-paste-deploy'
   'python2-eventlet'
   'python2-greenlet'
   'python2-iso8601'

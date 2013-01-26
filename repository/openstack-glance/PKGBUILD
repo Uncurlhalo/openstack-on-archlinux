@@ -8,9 +8,9 @@ arch=('x86_64')
 url=("http://docs.openstack.org/developer/glance/")
 license=('Apache')
 depends=(
-  'python-anyjson'
-  'python-paste'
-  'python-paste-deploy'
+  'python2-anyjson'
+  'python2-paste'
+  'python2-paste-deploy'
   'python2'
   'python2-argparse'
   'python2-boto'

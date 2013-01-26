@@ -4,9 +4,11 @@ PACKAGES = \
   openstack-glance \
   openstack-horizon \
   openstack-keystone \
-  openstack-nova \
+  openstack-python-glanceclient \
   openstack-python-keystoneclient \
   openstack-python-novaclient \
+  openstack-python-quantumclient \
+  openstack-nova \
   python2-cliff \
   python2-cloudfiles \
   python2-cmd2 \
@@ -18,6 +20,7 @@ PACKAGES = \
   tgt
 
 install:
+	set -e
 	for package in $(PACKAGES); do \
 	  (cd $$package && makepkg -iscf) \
 	done

@@ -30,10 +30,10 @@ PACKAGES = \
 
 PACKAGES_AUR = \
   open-iscsi \
-  python-anyjson \
+  python2-anyjson \
   python-pam \
-  python-paste \
-  python-paste-deploy \
+  python2-paste \
+  python2-paste-deploy \
   python2-amqplib \
   python2-argparse \
   python2-boto \
